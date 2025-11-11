@@ -21,23 +21,36 @@ Build Tool	Maven
 ✅ Responsive dark-themed interface
 ✅ “Developed by Aman Kumar © 2025” footer
 
-🗂️ Folder Structure
 student-management-system/
- ├── src/
- │   ├── main/
- │   │   ├── java/com/example/student_management/
- │   │   │   ├── controller/
- │   │   │   ├── model/
- │   │   │   ├── repository/
- │   │   │   ├── service/
- │   │   │   └── StudentManagementApplication.java
- │   │   └── resources/
- │   │       ├── templates/
- │   │       │   ├── login.html
- │   │       │   └── students.html
- │   │       └── application.properties
- ├── pom.xml
- └── README.md
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/student_management/
+│   │   │       ├── controller/
+│   │   │       │   ├── StudentViewController.java
+│   │   │       │   ├── AdminController.java
+│   │   │       ├── model/
+│   │   │       │   ├── Student.java
+│   │   │       │   ├── Admin.java
+│   │   │       ├── repository/
+│   │   │       │   ├── StudentRepository.java
+│   │   │       │   ├── AdminRepository.java
+│   │   │       ├── service/
+│   │   │       │   ├── StudentService.java
+│   │   │       │   ├── AdminService.java
+│   │   │       └── StudentManagementApplication.java
+│   │   └── resources/
+│   │       ├── static/
+│   │       │   └── (images, css, js if any)
+│   │       ├── templates/
+│   │       │   ├── login.html
+│   │       │   ├── students.html
+│   │       └── application.properties
+├── pom.xml
+├── README.md
+└── .gitignore
+
+
 
 🧠 How to Run
 
