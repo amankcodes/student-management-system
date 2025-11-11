@@ -86,7 +86,6 @@ Database migration to MySQL
 👨‍💻 Developed by
 
 Aman Kumar
-📍 B.Tech CSE (2026 Batch)
 © 2025 All Rights Reserved
 
 📦 GitHub Repo: https://github.com/amankcodes/student-management-system
