@@ -19,7 +19,8 @@ public class AdminInitializer implements CommandLineRunner {
             admin.setUsername("admin");
             admin.setPassword("admin123");
             adminRepository.save(admin);
-            System.out.println("✅ Default admin created: username=admin, password=admin123");
-        }
+            System.out.println("Default admin created: username=admin, password=admin123");
+
+                    }
     }
 }
